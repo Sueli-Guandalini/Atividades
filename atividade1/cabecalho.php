@@ -14,4 +14,3 @@
 	<a href="formJogador.php">Criar Jogador</a> |
 	<a href="listarJogadas.php">Listar Jogadas</a>
 	<hr />
-?>
