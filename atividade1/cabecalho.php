@@ -11,6 +11,6 @@
 	</style>
 </head>
 <body>
-	<a href="formJogador.php">Criar Jogador</a> |
-	<a href="listarJogadas.php">Listar Jogadas</a>
+	<a href="index.php">Criar Jogador</a> |
+	<a href="listarJogador.php">Listar Jogadores</a>
 	<hr />

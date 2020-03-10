@@ -5,9 +5,17 @@ class Jogador{
 		private $nome;
 		private $opcao;
 		
-		public function __construct($n){
+		public function __construct($nome, $opcao){
 			$this->nome = $nome;
 			$this->opcao = $opcao;
+		}
+		
+		public function set_nome($valor){
+			$this->nome = $valor;
+		}
+		
+		public function set_opcao($valor){
+			$this->opcao = $valor;
 		}
 		
 		public function get_nome(){
@@ -17,5 +25,8 @@ class Jogador{
 		public function get_opcao(){
 			return($this->opcao);
 		}
+	
+}
+	//Lista de Métodos
 		
 ?>

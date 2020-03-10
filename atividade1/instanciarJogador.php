@@ -3,12 +3,14 @@
 include "classJogador.php";
 include "cabecalho.php";
 
-$c = new Jogador(
-				$_POST["nome"],
-				$_POST["opcao"],
-			);
+$j = new Jogador(
 
 
+		$_POST["nome"],
+		$_POST["opcao"]
+		
+		
+		);
 
 $_SESSION["jogador"][] = $j;
 
@@ -19,3 +21,7 @@ $_SESSION["jogador"][] = $j;
 
 </body>
 </html>
+
+
+
+
