@@ -1,0 +1,184 @@
+body{
+    background-color: #b10d88;
+    
+}
+/* Barra de navegação */
+
+.navbar {
+   background-color: #01080e; /* Cor de fundo da Barra de navegação */
+}
+
+
+.btn-dark{
+    background-color: #000000; /* Cor de fundo do botão pesquisar */
+}
+
+.btn-secondary {
+    background-color: #000000; /* Cor de fundo do botão entrar ou cadastrar */
+}
+
+#logo {
+    width: 80px; /* Tamanho do logotipo */
+}
+
+#link{
+    color: rgb(255, 255, 255); /* muda a cor dos liks da barra de navegação categoria*/
+}
+
+
+
+footer{
+    background-color: #000000;/* Cor de fundo do botão rodapé*/
+}
+
+
+
+
+/* team */ 
+.div {
+    display: inline-block;
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+/* apply */
+#apply-area .apply-box {
+    padding: 50px 25px;
+}
+
+.card-img-responsiva{
+    /*width: 300px;*/
+    height:250px;
+}
+
+.imgCompra{
+    height:400px;
+}
+
+
+
+/* Login*/
+.login-form{
+    padding: 60px 30px;
+    background-color: rgba(0, 0, 0, .9);
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.login-form h1{
+    margin: 0 0 5px;
+}
+
+.login-form h2{
+    margin: 0 0 30px;
+    font-size: 1em;
+}
+
+.modal .fade .bd-example-modal-lg{
+    min-height: 50vh;
+    background-color: #CCC;
+    background-image: url('https://unsplash.it/g/1500/800');
+}
+
+.linhaProduto{
+    margin-top:100px;
+}
+
+.foto{
+    width: 150px;
+    height:200px;
+}
+
+/*CENTRAL DE SUPORTE*/
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3ec1d5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3ec1d5;
+}
+
+/*Copy*/
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    column-count: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+}
+
+/*Automatic Slideshow*/
+.mySlides {display:none;}
+
+
+
+    
+
+.titulo{
+    text-shadow: 0 0 0.2em rgb(241, 213, 237), 0 0 0.2em rgb(235, 132, 235),
+        0 0 0.2em rgb(17, 15, 17)
+}
+

@@ -5,7 +5,7 @@
 ?>
 
 <?php
-$tabuleiro = array();
+$tabuleiro[$linha][$coluna] = array();
 
 // Imprimir Tabuleiro
 	echo'   0   1   2 ';

@@ -4,9 +4,9 @@ include "cabecalho.php";
 	<h1>Criar objeto jogador</h1>
 	
 	<?php
-		if(empty($_POST["nome"])){
-			$_SESSION["nomeJogador"] = 0;
-			$_SESSION["opcao"] = 'X';
+		if(empty($_POST)){
+			$_SESSION["nome_cadastrado"] = 0;
+			$_SESSION["opcaoJogador"] = $_POST["opcao"] ='X';
 			echo '
 				
 				<form action="instanciarJogador.php" method="post">
@@ -28,9 +28,9 @@ include "cabecalho.php";
 				</form>';
 						
 		}else{
-			if($_SESSION["nomeJogador"] == 0){
-				$_SESSION["nome"][] = $_POST["nome"];
-				$_SESSION["nomeJogador"][] = 1;
+			if($_SESSION["nome_cadastrado"] == 0){
+				$_SESSION["nomeJogador"][] = $_POST["nome"];
+				$_SESSION["nome_cadastrado"][] = 1;
 				echo'
 					<form action="instanciarJogador.php" method="post">
 					<fieldset>
